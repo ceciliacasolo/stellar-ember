@@ -2,115 +2,139 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Cecilia Casolo
+  given: Cecilia
+  family: Casolo
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  pronouns: ''
+postnominals: []
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: ""
+role: PhD Candidate in Computer Science
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a PhD candidate at Helmholtz Munich and the Technical University of Munich
+  in Niki Kilbertus' group. My work sits at the intersection of causality,
+  dynamical systems, stochastic processes, and representation learning, with
+  applications in biology and healthcare.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Helmholtz Munich
+    url: https://www.helmholtz-munich.de/
+  - name: Technical University of Munich
+    url: https://www.tum.de/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:casolocecilia@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/ceciliacasolo
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/cecilia-casolo-819374171/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Causal Machine Learning
+  - Dynamical Systems
+  - Stochastic Processes
+  - Applied Machine Learning
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD Candidate in Computer Science
+    institution: Technical University of Munich and Helmholtz Munich
+    start: 2022-02-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Research at the intersection of causality, dynamical systems, and machine
+      learning, with applications in biology and healthcare. Member of the
+      Konrad Zuse School of Excellence in Reliable AI (RelAI).
     button:
-      text: Download dissertation
-      url: /resume.pdf
+      text: Get in touch
+      url: mailto:casolocecilia@gmail.com
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: MSc in Applied Mathematics
+    institution: TU Delft
+  - degree: BSc in Mathematical Engineering
+    institution: Politecnico di Milano
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Applied Scientist Intern
+    org: Amazon Web Services (AWS) OpenSearch
+    start: 2025-07-01
+    end: 2025-11-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      Fine-tuned 7B-12B parameter language models with reinforcement learning.
+      Worked on training setups that combined explicit reasoning and agentic exploration.
     button:
-      text: View portfolio
-      url: /
+      text: E-mail Me
+      url: mailto:casolocecilia@gmail.com
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Visiting Graduate Student
+    org: Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard
+    start: 2024-09-01
+    end: 2024-12-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Worked in Caroline Uhler's group on hybrid dynamical modeling for longitudinal microbiome data.
+  - role: PhD Candidate in Computer Science
+    org: Helmholtz Munich and Technical University of Munich
+    start: 2022-02-01
+    summary: |
+      Working in the group of Niki Kilbertus. Research at the intersection of
+      causality, dynamical systems, and machine learning, with applications in
+      biology and healthcare. Co-organized the NeurIPS 2022 workshop A Causal View
+      on Dynamical Systems.
+  - role: MSc Thesis Researcher
+    org: ETH Zurich
+    start: 2021-01-01
+    end: 2021-11-01
+    summary: |
+      Completed a thesis on causal fairness in machine learning under the supervision
+      of Marloes Maathuis and Geurt Jongbloed.
+  - role: Data Science Intern
+    org: Philips Research
+    start: 2020-08-01
+    end: 2020-12-01
+    summary: |
+      Developed deep learning models for behavioral time-series simulation in healthcare applications.
+  - role: Consulting Director and Global Leadership Team
+    org: 180 Degrees Consulting Delft-Rotterdam
+    start: 2019-12-01
+    end: 2022-02-01
+    summary: |
+      Led AI-focused consulting projects and coordinated EMEA branch operations across more than 45 branches.
+  - role: Student Trainee
+    org: European Central Bank
+    start: 2018-08-01
+    end: 2018-09-01
+    summary: |
+      Built an automated R pipeline for collecting and processing crypto-asset data in the Statistics Department.
 
 skills:
-  - name: Technical Skills
+  - name: Research Areas
     items:
-      - label: Python
+      - label: Causal ML
         level: 5
-      - label: Machine Learning
+      - label: Dynamical Systems
         level: 5
-      - label: Cloud Computing
+      - label: Stochastic Processes
         level: 4
-  - name: Research & Communication
+  - name: Applied Work
     items:
-      - label: Academic Writing
+      - label: Scientific ML
         level: 5
-      - label: Conference Presentations
+      - label: Healthcare ML
         level: 4
-      - label: Grant Proposals
+      - label: Foundation Models
         level: 4
 
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
     label: Fluent
+  - name: Italian
+    level: 4
+    label: Native
+  - name: German
+    level: 2
+    label: Basic
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []
