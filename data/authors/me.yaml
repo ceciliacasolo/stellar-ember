@@ -75,13 +75,13 @@ experience:
     summary: |
       Worked in Caroline Uhler's group on hybrid dynamical modeling for
       longitudinal microbiome data.
-  - role: PhD Candidate in Computer Science
-    org: Helmholtz Munich and Technical University of Munich
+  - role: Guest Researcher
+    org: Helmholtz AI
     start: 2022-02-01
     summary: |
-      Working in the group of Niki Kilbertus on causality, dynamical systems,
-      and machine learning, with applications in biology and healthcare.
-      Co-organized the NeurIPS 2022 workshop A Causal View on Dynamical Systems.
+      Working on causality, dynamical systems, and machine learning, with
+      applications in biology and healthcare. Co-organized the NeurIPS 2022
+      workshop A Causal View on Dynamical Systems.
   - role: MSc Thesis Researcher
     org: ETH Zurich
     start: 2021-01-01
