@@ -75,6 +75,17 @@ sections:
       view: article-grid
       columns: 2
   - block: collection
+    id: talks
+    content:
+      title: Talks and Presentations
+      text: ''
+      filters:
+        folders:
+          - events
+        exclude_featured: false
+    design:
+      view: card
+  - block: collection
     content:
       title: All Publications
       text: ''
