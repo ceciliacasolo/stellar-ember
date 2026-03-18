@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://ceciliacasolo.github.io/stellar-ember/'
 
 ############################
 ## LANGUAGE
@@ -16,6 +16,7 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+relativeURLs: true
 
 ############################
 ## PAGE OPTIONS
