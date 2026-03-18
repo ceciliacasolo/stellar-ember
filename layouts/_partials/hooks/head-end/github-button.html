@@ -1,1 +1,56 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+<style>
+  .experience-grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 1.5rem;
+  }
+
+  .experience-card {
+    height: 100%;
+    padding: 1.2rem;
+    border: 1px solid rgba(15, 23, 42, 0.12);
+    border-radius: 1.25rem;
+    background: linear-gradient(180deg, rgba(255,255,255,0.96) 0%, rgba(248,250,252,0.96) 100%);
+    box-shadow: 0 18px 45px -28px rgba(15, 23, 42, 0.35);
+  }
+
+  .experience-card h3 {
+    margin: 0 0 0.35rem 0;
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+
+  .experience-card p {
+    margin: 0;
+  }
+
+  .experience-card__meta {
+    margin-bottom: 0.65rem !important;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(71, 85, 105, 0.95);
+  }
+
+  .experience-card__org {
+    margin-bottom: 0.75rem !important;
+    font-weight: 600;
+    color: rgba(30, 41, 59, 0.9);
+  }
+
+  html.dark .experience-card {
+    border-color: rgba(148, 163, 184, 0.16);
+    background: linear-gradient(180deg, rgba(15,23,42,0.9) 0%, rgba(2,6,23,0.9) 100%);
+    box-shadow: 0 18px 45px -28px rgba(2, 6, 23, 0.75);
+  }
+
+  html.dark .experience-card__meta {
+    color: rgba(148, 163, 184, 0.92);
+  }
+
+  html.dark .experience-card__org {
+    color: rgba(226, 232, 240, 0.92);
+  }
+</style>

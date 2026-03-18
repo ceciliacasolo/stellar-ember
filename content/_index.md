@@ -49,15 +49,52 @@ sections:
         I am interested in roles where rigorous ML research connects to real modeling problems, especially in trustworthy AI, foundation models, and scientific machine learning.
     design:
       columns: '1'
-  - block: resume-experience
+  - block: markdown
     content:
-      title: Selected Experience
+      title: 'Selected Experience'
       text: |-
-        A few roles that shaped how I approach machine learning research, causal modeling, and applied problems in healthcare and foundation models.
-      username: me
+        <div class="experience-grid">
+          <article class="experience-card">
+            <p class="experience-card__meta">Jul 2025 to Nov 2025 · Berlin</p>
+            <h3>Applied Scientist Intern</h3>
+            <p class="experience-card__org">Amazon Web Services (AWS) OpenSearch</p>
+            <p>Worked on post-training and reinforcement-learning setups for 7B to 12B language models, with a focus on explicit reasoning and agentic exploration.</p>
+          </article>
+          <article class="experience-card">
+            <p class="experience-card__meta">Sep 2024 to Dec 2024 · Boston</p>
+            <h3>Visiting Graduate Student</h3>
+            <p class="experience-card__org">Broad Institute of MIT and Harvard</p>
+            <p>Collaborated in Caroline Uhler's group on hybrid dynamical modeling for longitudinal microbiome data.</p>
+          </article>
+          <article class="experience-card">
+            <p class="experience-card__meta">Feb 2022 to Present · Munich</p>
+            <h3>PhD Candidate in Computer Science</h3>
+            <p class="experience-card__org">Helmholtz Munich and Technical University of Munich</p>
+            <p>Researching causal machine learning and dynamical systems with applications in biology and healthcare, in the group of Niki Kilbertus.</p>
+          </article>
+          <article class="experience-card">
+            <p class="experience-card__meta">Jan 2021 to Nov 2021 · Zurich</p>
+            <h3>MSc Thesis Researcher</h3>
+            <p class="experience-card__org">ETH Zurich</p>
+            <p>Worked on causal fairness in machine learning, bridging individual-level and population-level notions of fairness.</p>
+          </article>
+          <article class="experience-card">
+            <p class="experience-card__meta">Aug 2020 to Dec 2020 · Eindhoven</p>
+            <h3>Data Science Intern</h3>
+            <p class="experience-card__org">Philips Research</p>
+            <p>Developed deep learning models for behavioral time-series simulation in healthcare applications.</p>
+          </article>
+          <article class="experience-card">
+            <p class="experience-card__meta">Dec 2019 to Feb 2022 · Delft-Rotterdam</p>
+            <h3>Consulting Director and Global Leadership Team</h3>
+            <p class="experience-card__org">180 Degrees Consulting</p>
+            <p>Led AI-focused consulting projects and coordinated operations across more than 45 branches in the EMEA network.</p>
+          </article>
+        </div>
+
+        [See full experience](/experience/)
     design:
-      date_format: 'Jan 2006'
-      is_education_first: false
+      columns: '1'
   - block: collection
     id: papers
     content:
