@@ -62,8 +62,8 @@ experience:
     start: 2025-07-01
     end: 2025-11-01
     summary: |
-      Fine-tuned 7B-12B parameter language models with reinforcement learning.
-      Worked on training setups that combined explicit reasoning and agentic exploration.
+      Fine-tuned 7B-12B parameter language models with reinforcement learning and
+      worked on training setups combining explicit reasoning with agentic exploration.
     button:
       text: E-mail Me
       url: mailto:casolocecilia@gmail.com
@@ -73,34 +73,36 @@ experience:
     start: 2024-09-01
     end: 2024-12-01
     summary: |
-      Worked in Caroline Uhler's group on hybrid dynamical modeling for longitudinal microbiome data.
+      Worked in Caroline Uhler's group on hybrid dynamical modeling for
+      longitudinal microbiome data.
   - role: PhD Candidate in Computer Science
     org: Helmholtz Munich and Technical University of Munich
     start: 2022-02-01
     summary: |
-      Working in the group of Niki Kilbertus. Research at the intersection of
-      causality, dynamical systems, and machine learning, with applications in
-      biology and healthcare. Co-organized the NeurIPS 2022 workshop A Causal View
-      on Dynamical Systems.
+      Working in the group of Niki Kilbertus on causality, dynamical systems,
+      and machine learning, with applications in biology and healthcare.
+      Co-organized the NeurIPS 2022 workshop A Causal View on Dynamical Systems.
   - role: MSc Thesis Researcher
     org: ETH Zurich
     start: 2021-01-01
     end: 2021-11-01
     summary: |
-      Completed a thesis on causal fairness in machine learning under the supervision
-      of Marloes Maathuis and Geurt Jongbloed.
+      Completed a thesis on causal fairness in machine learning under the
+      supervision of Marloes Maathuis and Geurt Jongbloed.
   - role: Data Science Intern
     org: Philips Research
     start: 2020-08-01
     end: 2020-12-01
     summary: |
-      Developed deep learning models for behavioral time-series simulation in healthcare applications.
+      Developed deep learning models for behavioral time-series simulation in
+      healthcare applications.
   - role: Consulting Director and Global Leadership Team
     org: 180 Degrees Consulting Delft-Rotterdam
     start: 2019-12-01
     end: 2022-02-01
     summary: |
-      Led AI-focused consulting projects and coordinated EMEA branch operations across more than 45 branches.
+      Led AI-focused consulting projects and coordinated EMEA branch operations
+      across more than 45 branches.
   - role: Student Trainee
     org: European Central Bank
     start: 2018-08-01

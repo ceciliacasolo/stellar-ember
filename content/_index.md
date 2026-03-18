@@ -49,6 +49,15 @@ sections:
         I am interested in roles where rigorous ML research connects to real modeling problems, especially in trustworthy AI, foundation models, and scientific machine learning.
     design:
       columns: '1'
+  - block: resume-experience
+    content:
+      title: Selected Experience
+      text: |-
+        A few roles that shaped how I approach machine learning research, causal modeling, and applied problems in healthcare and foundation models.
+      username: me
+    design:
+      date_format: 'Jan 2006'
+      is_education_first: false
   - block: collection
     id: papers
     content:
