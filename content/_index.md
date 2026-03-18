@@ -51,13 +51,18 @@ sections:
       columns: '1'
   - block: resume-experience
     content:
-      title: Selected Experience
-      text: |-
-        A few roles that shaped how I approach machine learning research, causal modeling, and applied problems in healthcare and foundation models.
       username: me
     design:
-      date_format: 'Jan 2006'
+      date_format: 'January 2006'
       is_education_first: false
+  - block: resume-skills
+    content:
+      title: Research Areas
+      username: me
+  - block: resume-languages
+    content:
+      title: Languages
+      username: me
   - block: collection
     id: papers
     content:
