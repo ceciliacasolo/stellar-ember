@@ -34,10 +34,9 @@ links:
     url: https://www.linkedin.com/in/cecilia-casolo-819374171/
 
 interests:
-  - Causal Machine Learning
-  - Dynamical Systems
-  - Stochastic Processes
-  - Applied Machine Learning
+  - Traveling
+  - Hiking
+  - Cooking
 
 education:
   - degree: PhD Candidate in Computer Science
@@ -47,10 +46,6 @@ education:
       Research at the intersection of causality, dynamical systems, and machine
       learning, with applications in biology and healthcare. Member of the
       Konrad Zuse School of Excellence in Reliable AI (RelAI).
-    button:
-      text: Get in touch
-      url: mailto:casolocecilia@gmail.com
-      icon: hero/arrow-down-tray
   - degree: MSc in Applied Mathematics
     institution: TU Delft
   - degree: BSc in Mathematical Engineering
@@ -64,10 +59,6 @@ experience:
     summary: |
       Fine-tuned 7B-12B parameter language models with reinforcement learning and
       worked on training setups combining explicit reasoning with agentic exploration.
-    button:
-      text: E-mail Me
-      url: mailto:casolocecilia@gmail.com
-      icon: hero/arrow-down-tray
   - role: Visiting Graduate Student
     org: Eric and Wendy Schmidt Center, Broad Institute of MIT and Harvard
     start: 2024-09-01
@@ -109,34 +100,5 @@ experience:
     end: 2018-09-01
     summary: |
       Built an automated R pipeline for collecting and processing crypto-asset data in the Statistics Department.
-
-skills:
-  - name: Research Areas
-    items:
-      - label: Causal ML
-        level: 5
-      - label: Dynamical Systems
-        level: 5
-      - label: Stochastic Processes
-        level: 4
-  - name: Applied Work
-    items:
-      - label: Scientific ML
-        level: 5
-      - label: Healthcare ML
-        level: 4
-      - label: Foundation Models
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Fluent
-  - name: Italian
-    level: 4
-    label: Native
-  - name: German
-    level: 2
-    label: Basic
 
 awards: []

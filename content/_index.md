@@ -55,14 +55,6 @@ sections:
     design:
       date_format: 'January 2006'
       is_education_first: false
-  - block: resume-skills
-    content:
-      title: Research Areas
-      username: me
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
   - block: collection
     id: papers
     content:
@@ -84,7 +76,7 @@ sections:
           - events
         exclude_featured: false
     design:
-      view: card
+      view: citation
   - block: collection
     content:
       title: All Publications

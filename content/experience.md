@@ -18,12 +18,4 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-skills
-    content:
-      title: Research Areas
-      username: me
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
 ---
