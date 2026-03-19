@@ -8,7 +8,7 @@ main:
     url: https://ceciliacasolo.github.io/stellar-ember/
     weight: 10
   - name: Papers
-    url: https://ceciliacasolo.github.io/stellar-ember/#papers
+    url: /#papers
     weight: 11
   - name: Experience
     url: https://ceciliacasolo.github.io/stellar-ember/experience/

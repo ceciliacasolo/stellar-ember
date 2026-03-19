@@ -18,6 +18,7 @@ tags:
   - Causal Discovery
   - Stochastic Processes
 featured: true
+url_pdf: index.pdf
 links: []
 projects: []
 slides: ""

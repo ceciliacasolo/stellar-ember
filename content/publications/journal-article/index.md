@@ -16,6 +16,7 @@ summary: "A paper on learning predictors that remain stable under counterfactual
 tags:
   - Causal Machine Learning
 featured: true
+url_pdf: index.pdf
 links: []
 projects: []
 slides: ""

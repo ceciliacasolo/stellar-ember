@@ -15,6 +15,7 @@ tags:
   - Dynamical Systems
   - Identifiability
 featured: true
+url_pdf: index.pdf
 links: []
 projects: []
 slides: ""
