@@ -89,6 +89,17 @@ sections:
       view: citation
   - block: markdown
     content:
+      title: 'Personal Interests'
+      text: |-
+        ✈️ Traveling
+
+        🥾 Hiking
+
+        🍳 Cooking
+    design:
+      columns: '1'
+  - block: markdown
+    content:
       title: 'Open to Conversation'
       text: |-
         If you are hiring, collaborating, or working on related machine learning problems, feel free to reach out by email or connect on LinkedIn.
