@@ -18,6 +18,8 @@ featured: false
 links: []
 projects: []
 slides: ""
+build:
+  render: never
 ---
 
 This work addresses treatment selection for clinical time series while explicitly accounting for uncertainty, with a focus on decision-making in high-stakes healthcare settings.

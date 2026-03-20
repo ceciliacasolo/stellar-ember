@@ -15,10 +15,11 @@ tags:
   - Dynamical Systems
   - Identifiability
 featured: true
-url_pdf: index.pdf
 links: []
 projects: []
 slides: ""
+build:
+  render: never
 ---
 
 This paper studies when sparse linear ordinary differential equation models can and cannot be identified, with an emphasis on the limits of inference in dynamical systems.

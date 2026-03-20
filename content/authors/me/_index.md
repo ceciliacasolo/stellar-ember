@@ -4,10 +4,17 @@ authors:
   - me
 role: PhD Candidate in Computer Science
 bio: |
-  I am a PhD candidate at Helmholtz Munich and the Technical University of Munich
-  in Niki Kilbertus' group. My work sits at the intersection of causality,
-  dynamical systems, stochastic processes, and representation learning, with
-  applications in biology and healthcare.
+  I am a final-year PhD candidate at Helmholtz Munich and the Technical
+  University of Munich, working in the group of Niki Kilbertus. I gained
+  industry experience as an Applied Scientist intern at AWS, where I worked on
+  large language models and reinforcement learning-based fine-tuning of agents,
+  and completed a research visit at the Broad Institute of MIT and Harvard.
+
+  My current work focuses on reinforcement learning-based fine-tuning of large
+  language models and agent-based systems. More broadly, my PhD research has
+  explored the intersection of causality, dynamical systems, stochastic
+  processes, and representation learning, with a focus on applications in
+  biology and healthcare.
 
 organizations:
   - name: Helmholtz Munich

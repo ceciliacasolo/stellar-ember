@@ -11,6 +11,7 @@ design:
 
 sections:
   - block: resume-biography-3
+    id: bio
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
@@ -37,88 +38,46 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: 'Research and Applied Work'
-      subtitle: ''
-      text: |-
-        I work on machine learning methods that stay meaningful when systems evolve over time.
-
-        My work sits at the intersection of causality, dynamical systems, stochastic processes, and representation learning, with applications in biology and healthcare.
-
-        I am interested in roles where rigorous ML research connects to real modeling problems, especially in trustworthy AI, foundation models, and scientific machine learning.
-    design:
-      columns: '1'
   - block: resume-experience
+    id: experience
     content:
       username: me
     design:
       date_format: 'January 2006'
       is_education_first: false
-  - block: collection
-    id: selected-publications
+  - block: markdown
+    id: papers
     content:
-      title: Selected Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
+      title: Publications
+      text: |-
+        <div style="max-width:76rem;margin:0 auto;font-size:0.95rem;line-height:1.6;">
+        
+        - **Identifiability Challenges in Sparse Linear Ordinary Differential Equations**. **Cecilia Casolo**, Soren Becker, Niki Kilbertus. ICLR 2026.
+        - **Signature Kernel Conditional Independence Tests in Causal Discovery for Stochastic Processes**. Georg Manten*, **Cecilia Casolo***, Emilio Ferrucci, Soren Wengel Mogensen, Cristopher Salvi, Niki Kilbertus. ICLR 2025.
+        - **Uncertainty-Aware Optimal Treatment Selection for Clinical Time Series**. Thomas Schwarz, **Cecilia Casolo**, Niki Kilbertus. CRL Workshop at NeurIPS 2024.
+        - **Your Assumed DAG Is Wrong and Here's How to Deal with It**. Kirtan Padh, Zhufeng Li, **Cecilia Casolo**, Niki Kilbertus. CLeaR 2024.
+        - **An Asymmetric Independence Model for Causal Discovery on Path Spaces**. Georg Manten, **Cecilia Casolo**, Soren Wengel Mogensen, Niki Kilbertus. CLeaR 2024.
+        - **Learning Counterfactually Invariant Predictors**. Francesco Quinzan*, **Cecilia Casolo***, Krikamol Muandet, Yucen Luo, Niki Kilbertus. TMLR 2024.
+        
+        * equal contribution
+        
+        </div>
     design:
-      view: article-grid
-      columns: 2
-  - block: collection
+      columns: '1'
+  - block: markdown
     id: talks
     content:
       title: Talks and Presentations
-      text: ''
-      filters:
-        folders:
-          - events
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: papers
-    content:
-      title: Papers
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: markdown
-    content:
-      title: 'Personal Interests'
       text: |-
-        <div style="background:#eef3fa;border-radius:1.75rem;padding:2.25rem 1.5rem;margin-top:0.75rem;">
-          <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;align-items:start;text-align:center;">
-            <div>
-              <div style="color:#e79b92;">
-                <svg viewBox="0 0 24 24" width="52" height="52" fill="currentColor" style="display:inline-block;" aria-hidden="true">
-                  <path d="M8 4.5A2.5 2.5 0 0 1 10.5 2h3A2.5 2.5 0 0 1 16 4.5V6h1.5A2.5 2.5 0 0 1 20 8.5v10a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 18.5v-10A2.5 2.5 0 0 1 6.5 6H8V4.5Zm2 1.5h4V4.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V6Zm-3.5 2a.5.5 0 0 0-.5.5V11h12V8.5a.5.5 0 0 0-.5-.5h-11Zm11.5 5H6v5.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V13Z"/>
-                </svg>
-              </div>
-              <div style="margin-top:0.9rem;font-size:1.2rem;font-weight:500;">Traveling</div>
-            </div>
-            <div>
-              <div style="color:#e79b92;">
-                <svg viewBox="0 0 24 24" width="52" height="52" fill="currentColor" style="display:inline-block;" aria-hidden="true">
-                  <path d="M3 19.5 9.5 7l3.2 4.8 2.8-3.8L21 19.5H3Zm6.5-3.2a1.3 1.3 0 1 0 0-2.6 1.3 1.3 0 0 0 0 2.6Z"/>
-                </svg>
-              </div>
-              <div style="margin-top:0.9rem;font-size:1.2rem;font-weight:500;">Hiking</div>
-            </div>
-            <div>
-              <div style="color:#e79b92;">
-                <svg viewBox="0 0 24 24" width="52" height="52" fill="currentColor" style="display:inline-block;" aria-hidden="true">
-                  <path d="M4 12a6 6 0 0 1 6-6h4a6 6 0 0 1 0 12h-1.2l1.1 2.2c.2.4 0 .8-.4 1H12a.7.7 0 0 1-.6-.4L10.3 18H10a6 6 0 0 1-6-6Zm6-4a4 4 0 0 0 0 8h4a4 4 0 0 0 0-8h-4Zm9.2 2.5h1.8a1 1 0 1 1 0 2h-1.8v-2Z"/>
-                </svg>
-              </div>
-              <div style="margin-top:0.9rem;font-size:1.2rem;font-weight:500;">Cooking</div>
-            </div>
-          </div>
+        <div style="max-width:76rem;margin:0 auto;font-size:0.95rem;line-height:1.6;">
+        
+        - **Uncertainty-Aware Optimal Treatment Selection for Clinical Time Series**. Causal Representation Learning Workshop at NeurIPS 2024, Vancouver, Canada, December 2024.
+        - **Causal Discovery in Dynamical Systems**. UAI 2024 Workshop, Barcelona, Spain, July 2024.
+        - **Signature Kernel Conditional Independence Tests in Causal Discovery for Stochastic Processes**. Rough Path Interest Group, University of Oxford, Oxford, United Kingdom, April 2024.
+        - **Learning Counterfactually Invariant Predictors**. TUM CAUSE Seminar, Munich, Germany, November 2023.
+        - **Causal Machine Learning**. Konrad Zuse Schools Opening Event, Germany, October 2023.
+        - **Poster Presentations at MLSS Krakow and ELLIS Doctoral Symposium**. MLSS Krakow 2023 and ELLIS Doctoral Symposium 2023, Europe, July 2023.
+        
         </div>
     design:
       columns: '1'

@@ -13,10 +13,17 @@ status:
   icon: ""
 role: PhD Candidate in Computer Science
 bio: |
-  I am a PhD candidate at Helmholtz Munich and the Technical University of Munich
-  in Niki Kilbertus' group. My work sits at the intersection of causality,
-  dynamical systems, stochastic processes, and representation learning, with
-  applications in biology and healthcare.
+  I am a final-year PhD candidate at Helmholtz Munich and the Technical
+  University of Munich, working in the group of Niki Kilbertus. I gained
+  industry experience as an Applied Scientist intern at AWS, where I worked on
+  large language models and reinforcement learning-based fine-tuning of agents,
+  and completed a research visit at the Broad Institute of MIT and Harvard.
+
+  My current work focuses on reinforcement learning-based fine-tuning of large
+  language models and agent-based systems. More broadly, my PhD research has
+  explored the intersection of causality, dynamical systems, stochastic
+  processes, and representation learning, with a focus on applications in
+  biology and healthcare.
 
 affiliations:
   - name: Helmholtz Munich
@@ -54,8 +61,12 @@ education:
       Konrad Zuse School of Excellence in Reliable AI (RelAI).
   - degree: MSc in Applied Mathematics
     institution: TU Delft
+    start: 2019-09-01
+    end: 2021-07-01
   - degree: BSc in Mathematical Engineering
     institution: Politecnico di Milano
+    start: 2016-09-01
+    end: 2019-07-01
 
 experience:
   - role: Applied Scientist Intern

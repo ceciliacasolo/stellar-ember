@@ -16,10 +16,11 @@ summary: "A paper on learning predictors that remain stable under counterfactual
 tags:
   - Causal Machine Learning
 featured: true
-url_pdf: index.pdf
 links: []
 projects: []
 slides: ""
+build:
+  render: never
 ---
 
 This paper studies how to learn predictors that remain stable under counterfactual changes, with the goal of making model behavior more robust to causal shifts.
