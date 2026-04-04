@@ -1,12 +1,19 @@
 ---
 title: "Signature Kernel Conditional Independence Tests in Causal Discovery for Stochastic Processes"
 authors:
-  - Georg Manten
   - me
+  - Georg Manten
   - Emilio Ferrucci
   - Soren Wengel Mogensen
   - Cristopher Salvi
   - Niki Kilbertus
+author_notes:
+  - "Equal contribution"
+  - "Equal contribution"
+  - ""
+  - ""
+  - ""
+  - ""
 date: "2025-01-01T00:00:00Z"
 publishDate: "2025-01-01T00:00:00Z"
 publication_types: ['paper-conference']

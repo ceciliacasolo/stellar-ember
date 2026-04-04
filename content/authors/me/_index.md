@@ -4,11 +4,15 @@ authors:
   - me
 role: PhD Candidate in Computer Science
 bio: |
-  I am a final-year PhD candidate at Helmholtz Munich and the Technical
+  I am a final-year PhD candidate in Computer Science at Helmholtz AI Munich and the Technical
   University of Munich, working in the group of Niki Kilbertus. I gained
   industry experience as an Applied Scientist intern at AWS, where I worked on
   large language models and reinforcement learning-based fine-tuning of agents,
-  and completed a research visit at the Broad Institute of MIT and Harvard.
+  and completed a research visit at the Broad Institute of MIT and Harvard. In
+  my studies, I earned a Master's in Applied Mathematics from TU Delft and a
+  Bachelor's in Mathematical Engineering from Politecnico di Milano. I
+  completed my master's thesis at ETH Zurich on causal fairness in machine
+  learning.
 
   My current work focuses on reinforcement learning-based fine-tuning of large
   language models and agent-based systems. More broadly, my PhD research has
@@ -17,10 +21,10 @@ bio: |
   biology and healthcare.
 
 organizations:
-  - name: Helmholtz Munich
+  - name: Helmholtz AI Munich
     url: https://www.helmholtz-munich.de/
   - name: Technical University of Munich
-    url: https://www.tum.de/
+    url: https://www.cit.tum.de/cit/startseite/
 
 interests:
   - Causal Machine Learning
