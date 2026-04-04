@@ -18,7 +18,8 @@ bio: |
   language models and agent-based systems. More broadly, my PhD research has
   explored the intersection of causality, dynamical systems, stochastic
   processes, and representation learning, with a focus on applications in
-  biology and healthcare.
+  biology and healthcare. I am also a member of the Konrad Zuse School of
+  Excellence in Reliable AI.
 
 organizations:
   - name: Helmholtz AI Munich
