@@ -21,7 +21,7 @@ sections:
         text: Get in touch
         url: mailto:casolocecilia@gmail.com
       headings:
-        about: ''
+        about: 'Summary'
         education: ''
         interests: ''
     design:
